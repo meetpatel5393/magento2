@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<config>
+    <!-- it's fix to write id='standard' here for front route -->
+    <router id='standard'> 
+        <route frontName='helloFront' id='helloFront'>
+        <!-- Element 'route', attribute 'id': pattern '[A-Za-z0-9_]{3,}'. -->
+            <module name='Ccc_HelloWorld' />
+        </route>
+    </router>
+</config>

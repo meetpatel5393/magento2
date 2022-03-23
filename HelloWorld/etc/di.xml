@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name='commands' xsi:type="array">
+                <item name='clean_generation' xsi:type="object">Ccc\HelloWorld\Console\Command\Generation</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

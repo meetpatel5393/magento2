@@ -1,0 +1,8 @@
+<?xml version='1.0' ?>
+<config>
+    <router id='admin'>
+        <route id='helloAdmin' frontName='helloAdmin'>
+            <module name='Ccc_HelloWorld'/>
+        </route>
+    </router>
+</config>
